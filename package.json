@@ -1,0 +1,21 @@
+{
+    "name": "centos-packages",
+    "version": "0.0.1",
+    "description": "Create a local repository of CentOS packages",
+    "keywords": [
+        "centos",
+        "packages",
+        "rpm",
+        "linux"
+    ],
+    "dependencies": {
+        "request": "2.33.0",
+        "status-bar": "1.1.1",
+        "async": "0.2.9"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/paulomcnally/Node-CentOS-Packages.git"
+    },
+    "main": "./index.js"
+}
